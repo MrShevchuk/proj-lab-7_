@@ -12,7 +12,10 @@ public class Pizzeria {
         pizzaList[2] = new Pizza("сыр моцарелла, маслины, помидор, сыр фета, грибы шампиньоны, перец болгарский, соус помодоро", "Вегетарианская", 105.00, 60);
 
         for (Pizza pizza : pizzaList) {
-            System.out.println(Arrays.toString(pizzaList));
+            System.out.println("пицца №1: " + pizzaList [0]);
+            System.out.println("пицца №2: " + pizzaList [1]);
+            System.out.println("пицца №3: " + pizzaList [2]);
+            break;
         }
     }
 }
