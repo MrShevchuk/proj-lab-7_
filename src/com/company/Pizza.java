@@ -12,5 +12,15 @@ public class Pizza {
         this.composition = composition;
         this.name = name;
         this.cost = cost;
+        
+         @Override
+    public String toString() {
+        return "Pizza{" +
+                "basis=" + basis +
+                ", composition='" + composition + '\'' +
+                ", name='" + name + '\'' +
+                ", cost=" + cost +
+                '}';
+  
     }
 }
