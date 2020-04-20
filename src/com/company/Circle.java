@@ -47,4 +47,14 @@ public class Circle {
     public void setColor(String color) {
         this.color = color;
     }
+
+    @Override
+    public String toString() {
+        return "Circle{" +
+                "radius=" + radius +
+                ", area=" + area +
+                ", color='" + color + '\'' +
+                ", circumference=" + circumference +
+                '}';
+    }
 }
